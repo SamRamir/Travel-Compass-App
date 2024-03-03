@@ -11,7 +11,7 @@ import 'package:http/http.dart' as http;
 
 /// A class for interacting with the Google Places API to retrieve location data.
 class GooglePlacesApi {
-  static const apiKey = 'AIzaSyBiL2R8oa4Dr3DO9Er2Lgtfu_OJPkjxFq0'; // This is the API that I got from making a google cloud account
+  static const apiKey = 'x'; // This is the API that I got from making a google cloud account
 
   /// Searches for cities based on a query and returns a list of location data.
   Future<List<ApiLocationData>> searchCities(String query) async {
